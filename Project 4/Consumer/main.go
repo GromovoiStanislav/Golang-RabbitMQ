@@ -17,13 +17,6 @@ import (
 
 
 
-
-
-
-func init() {
-	
-}
-
 func main() {
 	// Загрузите переменные среды из файла .env
 	err := godotenv.Load(".env")
@@ -43,9 +36,7 @@ func main() {
 	)
 
 
-
 	flag.Parse()
-
 
 
 	c, err := NewConsumer(*uri, *exchange, *exchangeType, *queue, *bindingKey, *consumerTag)

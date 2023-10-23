@@ -1,3 +1,6 @@
+// This example declares a durable Exchange, and publishes a single message to
+// that Exchange with a given routing key.
+//
 package main
 
 import (
