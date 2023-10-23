@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/joho/godotenv"
-	"github.com/streadway/amqp"
 	"log"
 	"os"
+
+	"github.com/joho/godotenv"
+	"github.com/streadway/amqp"
 )
 
 func failOnError(err error, msg string) {

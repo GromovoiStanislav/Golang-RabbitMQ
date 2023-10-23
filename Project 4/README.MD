@@ -1,0 +1,1 @@
+## Example RabbitMQ with github.com/streadway/amqp

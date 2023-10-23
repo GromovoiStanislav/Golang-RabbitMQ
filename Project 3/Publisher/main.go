@@ -19,9 +19,7 @@ func failOnError(err error, msg string) {
 func main() {
 	// Загрузите переменные среды из файла .env
 	err := godotenv.Load(".env")
-	if err != nil {
-		log.Fatalf("Error loading .env file: %v", err)
-	}
+	failOnError(err, "Error loading .env file:")
 
 	url := os.Getenv("CLOUDAMQP_URL")
 	if url == "" {

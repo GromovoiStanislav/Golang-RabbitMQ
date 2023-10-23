@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/joho/godotenv"
-	"github.com/streadway/amqp"
 	"log"
 	"os"
+
+	"github.com/joho/godotenv"
+	"github.com/streadway/amqp"
 )
 
 func failOnError(err error, msg string) {
@@ -17,9 +18,7 @@ func failOnError(err error, msg string) {
 func main() {
 	// Загрузите переменные среды из файла .env
 	err := godotenv.Load(".env")
-	if err != nil {
-		log.Fatalf("Error loading .env file: %v", err)
-	}
+	failOnError(err, "Error loading .env file:")
 
 	url := os.Getenv("CLOUDAMQP_URL")
 	if url == "" {

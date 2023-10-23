@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/joho/godotenv"
-	"github.com/streadway/amqp"
 	"log"
-
 	"fmt"
 	"os"
 	"time"
+
+	"github.com/joho/godotenv"
+	"github.com/streadway/amqp"
 )
 
 func main() {
