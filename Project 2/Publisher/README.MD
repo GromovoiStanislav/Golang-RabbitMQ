@@ -1,4 +1,4 @@
-## Example RabbitMQ with github.com/streadway/amqp
+## Example RabbitMQ Publisher with github.com/streadway/amqp
 
 setup:
 
