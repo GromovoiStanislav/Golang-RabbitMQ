@@ -21,7 +21,7 @@ go run receive.go
 ## Example #2: Work Queues:
 
 ```
-go run new_task.go hello world
+go run new_task.go hello world.....
 go run worker.go
 ```
 
