@@ -87,3 +87,9 @@ go run rpc_client.go 80
 ```
 
 <image src="img/rpc.png" alt="preview">
+
+## Example #7: Publisher Confirms:
+
+```
+go run publisher_confirms.go
+```
