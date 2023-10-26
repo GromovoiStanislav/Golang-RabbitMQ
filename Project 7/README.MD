@@ -56,3 +56,25 @@ Multiple bindings:
 Putting it all together:
 
 <image src="img/four.png" alt="preview">
+
+## Example #5: Topics:
+
+```
+go run receive_logs_topic.go "#"                    - To receive all the logs
+go run receive_logs_topic.go "kern.*"               - To receive all logs from the facility "kern"
+go run receive_logs_topic.go "*.critical"           - if you want to hear only about "critical" logs
+go run receive_logs_topic.go "kern.*" "*.critical"  - You can create multiple bindings
+
+go run emit_log_topic.go kern.critical "A critical kernel error"
+```
+
+<image src="img/topic-exchange.png" alt="preview">
+
+```
+* (star) can substitute for exactly one word.
+# (hash) can substitute for zero or more words.
+
+When a queue is bound with "#" (hash) binding key - it will receive all the messages, regardless of the routing key - like in 'fanout' exchange.
+
+When special characters "*" (star) and "#" (hash) aren't used in bindings, the topic exchange will behave just like a 'direct' one.
+```
