@@ -93,3 +93,11 @@ go run rpc_client.go 80
 ```
 go run publisher_confirms.go
 ```
+
+## Example #8: Headers:
+
+```
+go run receive_log_headers_any.go
+go run receive_log_headers_all.go
+go run emit_log_headers.go "Hello world!"
+```
