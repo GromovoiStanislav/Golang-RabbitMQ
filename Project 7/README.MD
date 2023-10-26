@@ -78,3 +78,12 @@ When a queue is bound with "#" (hash) binding key - it will receive all the mess
 
 When special characters "*" (star) and "#" (hash) aren't used in bindings, the topic exchange will behave just like a 'direct' one.
 ```
+
+## Example #6: RPC:
+
+```
+go run rpc_server.go
+go run rpc_client.go 80
+```
+
+<image src="img/rpc.png" alt="preview">
