@@ -37,3 +37,22 @@ go run emit_log.go hello world
 ```
 
 <image src="img/exchanges.png" alt="preview">
+
+## Example #4: Routing:
+
+```
+go run receive_logs_direct.go info warn
+go run emit_log_direct.go warn "a warning"
+```
+
+Direct exchange:
+
+<image src="img/direct-exchange.png" alt="preview">
+
+Multiple bindings:
+
+<image src="img/direct-exchange-multiple.png" alt="preview">
+
+Putting it all together:
+
+<image src="img/four.png" alt="preview">
