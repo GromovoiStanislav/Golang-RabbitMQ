@@ -1,1 +1,1 @@
-## Example RabbitMQ with github.com/streadway/amqp
+## Official example RabbitMQ with github.com/streadway/amqp

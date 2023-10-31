@@ -1,1 +1,1 @@
-## Example RabbitMQ with github.com/rabbitmq/amqp091-go
+## Official example RabbitMQ with github.com/rabbitmq/amqp091-go
