@@ -7,3 +7,4 @@
 - 5 - Example with github.com/rabbitmq/amqp091-go
 - 6 - Example with github.com/rabbitmq/amqp091-go
 - 7 - Official examples using RabbitMQ with github.com/rabbitmq/amqp091-go
+- 8 - Official example RabbitMQ pubsub with github.com/rabbitmq/amqp091-go
