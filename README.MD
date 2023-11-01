@@ -10,3 +10,4 @@
 - 8 - Official example RabbitMQ pubsub with github.com/rabbitmq/amqp091-go
 - 9 - Official example RabbitMQ github.com/streadway/amqp
 - 10 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go
+- 11 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go
