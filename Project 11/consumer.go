@@ -55,7 +55,7 @@ func main() {
 	bindings := []bind{
 		{"page", "alert"},
 		{"email", "info"},
-		{"firehose", "fff"},
+		{"firehose", "#"},
 	}
 
 	for _, b := range bindings {

@@ -11,3 +11,4 @@
 - 9 - Official example RabbitMQ github.com/streadway/amqp
 - 10 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go
 - 11 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go
+- 12 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go (Bridge)
