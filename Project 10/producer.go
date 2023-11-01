@@ -28,25 +28,26 @@ func main() {
 
 	queueName := "job_queue"
 	queue := New(queueName, addr)
-	message := []byte("message")
+	message := []byte("message x")
 
 	ctx, cancel := context.WithDeadline(context.Background(), time.Now().Add(time.Second*20))
 	defer cancel()
-loop:
-	for {
-		select {
-		// Attempt to push a message every 2 seconds
-		case <-time.After(time.Second * 2):
-			if err := queue.Push(message); err != nil {
-				fmt.Printf("Push failed: %s\n", err)
-			} else {
-				fmt.Println("Push succeeded!")
+	
+	loop:
+		for {
+			select {
+			// Attempt to push a message every 2 seconds
+			case <-time.After(time.Second * 2):
+				if err := queue.Push(message); err != nil {
+					fmt.Printf("Push failed: %s\n", err)
+				} else {
+					fmt.Println("Push succeeded!")
+				}
+			case <-ctx.Done():
+				queue.Close()
+				break loop
 			}
-		case <-ctx.Done():
-			queue.Close()
-			break loop
 		}
-	}
 }
 
 type Client struct {

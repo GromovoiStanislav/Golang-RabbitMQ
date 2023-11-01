@@ -41,8 +41,7 @@ func main() {
 
 	// We declare our topology on both the publisher and consumer to ensure they
 	// are the same.  This is part of AMQP being a programmable messaging model.
-	//
-	// See the Channel.Consume example for the complimentary declare.
+
 	err = c.ExchangeDeclare("logs", "topic", true, false, false, false, nil)
 	if err != nil {
 		log.Fatalf("exchange.declare: %v", err)
