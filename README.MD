@@ -13,4 +13,4 @@
 - 11 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go\*
 - 12 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go (Bridge)\*
 - 13 - RabbitMQ example of amqp.Confirmation and Exchange/QueueInspect with github.com/rabbitmq/amqp091-go
-- 14 - RabbitMQ with github.com/rabbitmq/amqp091-go example\*
+- 14 - RabbitMQ Event-Driven Architecture with github.com/rabbitmq/amqp091-go\*

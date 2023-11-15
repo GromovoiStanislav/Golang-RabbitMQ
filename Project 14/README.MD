@@ -1,4 +1,4 @@
-## RabbitMQ with github.com/rabbitmq/amqp091-go example\*
+## RabbitMQ Event-Driven Architecture with github.com/rabbitmq/amqp091-go\*
 
 Setup:
 
