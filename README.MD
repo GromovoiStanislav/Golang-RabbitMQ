@@ -12,3 +12,4 @@
 - 10 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go
 - 11 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go
 - 12 - Official example RabbitMQ with github.com/rabbitmq/amqp091-go (Bridge)
+- 13 - RabbitMQ example of amqp.Confirmation and Exchange/QueueInspect with github.com/rabbitmq/amqp091-go
