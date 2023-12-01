@@ -17,3 +17,4 @@
 - 15 - RabbitMQ example of Event Driven Architecture with github.com/rabbitmq/amqp091-go\*
 - 16 - RabbitMQ Hello World example with github.com/rabbitmq/amqp091-go
 - 17 - RabbitMQ example with github.com/rabbitmq/amqp091-go
+- 18 - RabbitMQ example with github.com/rabbitmq/amqp091-go

@@ -1,0 +1,6 @@
+### send data text
+GET http://localhost:3000/send?msg=test
+
+
+
+
