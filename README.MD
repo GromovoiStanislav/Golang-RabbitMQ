@@ -18,3 +18,4 @@
 - 16 - RabbitMQ Hello World example with github.com/rabbitmq/amqp091-go
 - 17 - RabbitMQ example with github.com/rabbitmq/amqp091-go
 - 18 - RabbitMQ example with github.com/rabbitmq/amqp091-go
+- 19 - RabbitMQ example with github.com/rabbitmq/amqp091-go and REST API

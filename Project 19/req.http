@@ -1,0 +1,24 @@
+### send data json
+POST http://127.0.0.1:8080/publish
+Content-Type: application/json
+
+{
+    "name":"Celal",
+    "age":30,
+    "car":"BMW M3 GTR"
+}
+
+### 
+
+GET http://127.0.0.1:8080/consume
+
+### 
+
+GET http://127.0.0.1:8080/home
+Content-Type: application/json
+
+{
+    "name":"Celal",
+    "age":30,
+    "car":"BMW M3 GTR"
+}
