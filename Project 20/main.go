@@ -160,10 +160,7 @@ func getMessagesFromRabbitMQ(mes1C Message1C) (PackageMessages, error) {
 			// Получен сигнал остановки
 			return packageMess, nil
 		}
-
 	}
-
-	return packageMess, nil
 }
 
 func handlePost(w http.ResponseWriter, r *http.Request) {
