@@ -19,3 +19,4 @@
 - 17 - RabbitMQ example with github.com/rabbitmq/amqp091-go
 - 18 - RabbitMQ example with github.com/rabbitmq/amqp091-go
 - 19 - RabbitMQ example with github.com/rabbitmq/amqp091-go and REST API
+- 20 - RabbitMQ example with github.com/rabbitmq/amqp091-go and REST API
