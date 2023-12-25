@@ -23,3 +23,4 @@
 - 21 - RabbitMQ Stream example with github.com/rabbitmq/amqp091-go
 - 22 - RabbitMQ Creating multiple instances of the consumer with github.com/rabbitmq/amqp091-go
 - 23 - RabbitMQ simple example with github.com/rabbitmq/amqp091-go
+- 24 - RabbitMQ TTL example with github.com/rabbitmq/amqp091-go
