@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strconv"
 
 	"github.com/joho/godotenv"
 	amqp "github.com/rabbitmq/amqp091-go"
@@ -58,7 +59,7 @@ func main() {
 	fmt.Println("Queue status:", queue)
 
 
-	// publishing a message
+	// publishing a message with common TTL
 	err = channel.Publish(
 		"",        // exchange
 		"testing", // key
@@ -73,7 +74,10 @@ func main() {
 		panic(err)
 	}
 
-	// publishing a message
+
+
+	// publishing a message with TTL
+	expirationTimeInMillis := int32(1000 * 20)
 	err = channel.Publish(
 		"",        // exchange
 		"testing", // key
@@ -82,7 +86,7 @@ func main() {
 		amqp.Publishing{
 			ContentType: "text/plain",
 			Body:        []byte("Test Message 30 sec"),
-			Expiration:  "20000",// Установка TTL конкретного сообщения в миллисекундах (20 секунд)
+			Expiration:  strconv.Itoa(int(expirationTimeInMillis)),// Установка TTL конкретного сообщения в миллисекундах (20 секунд)
 		},
 	)
 	if err != nil {
