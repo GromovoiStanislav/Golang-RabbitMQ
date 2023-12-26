@@ -101,3 +101,9 @@ go run receive_log_headers_any.go
 go run receive_log_headers_all.go
 go run emit_log_headers.go "Hello world!"
 ```
+
+## Example #9: "Hello world" ping message:
+
+```
+go run ping.go
+```
