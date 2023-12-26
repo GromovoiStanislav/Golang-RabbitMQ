@@ -11,8 +11,6 @@ import (
 )
 
 func main() {
-	fmt.Println("RabbitMQ in Golang: Getting started tutorial")
-
 	err := godotenv.Load(".env")
 	if err != nil {
 		log.Fatalf("%s: %s", "Error loading .env file", err)
