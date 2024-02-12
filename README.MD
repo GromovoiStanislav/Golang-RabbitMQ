@@ -27,3 +27,4 @@
 - 25 - RabbitMQ TTL and Dead Letter Queue example with github.com/rabbitmq/amqp091-go
 - 26 - RabbitMQ AlternateExchange example with github.com/rabbitmq/amqp091-go
 - 27 - RabbitMQ simple example with github.com/rabbitmq/amqp091-go
+- 28 - RabbitMQ Stream example with github.com/rabbitmq/amqp091-go
