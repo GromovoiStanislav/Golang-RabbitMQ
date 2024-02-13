@@ -24,8 +24,9 @@
 - 22 - RabbitMQ Creating multiple instances of the consumer with github.com/rabbitmq/amqp091-go
 - 23 - RabbitMQ simple example with github.com/rabbitmq/amqp091-go
 - 24 - RabbitMQ TTL example with github.com/rabbitmq/amqp091-go
-- 25 - RabbitMQ TTL and Dead Letter Queue example with github.com/rabbitmq/amqp091-go
+- 25 - RabbitMQ TTL and DLX (Dead Letter Exchange) example with github.com/rabbitmq/amqp091-go
 - 26 - RabbitMQ AlternateExchange example with github.com/rabbitmq/amqp091-go
 - 27 - RabbitMQ simple example with github.com/rabbitmq/amqp091-go
 - 28 - RabbitMQ Stream example with github.com/rabbitmq/amqp091-go
-- 29 - Retrying Mechanism for RabbitMQ and Dead Letter Queue example with github.com/rabbitmq/amqp091-go
+- 29 - Retrying Mechanism for RabbitMQ and DLX (Dead Letter Exchange) example with github.com/rabbitmq/amqp091-go
+- 30 - RabbitMQ DLX (Dead Letter Exchange) example with github.com/rabbitmq/amqp091-go

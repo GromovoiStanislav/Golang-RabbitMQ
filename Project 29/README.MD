@@ -1,4 +1,4 @@
-## Retrying Mechanism for RabbitMQ and Dead Letter Queue example with github.com/rabbitmq/amqp091-go
+## Retrying Mechanism for RabbitMQ and DLX (Dead Letter Exchange) example with github.com/rabbitmq/amqp091-go
 
 #### Setup:
 
